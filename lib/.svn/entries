@@ -1,40 +1,0 @@
-8
-
-dir
-6496
-https://jqueryjs.googlecode.com/svn/trunk/tools/jquery-api-browser/lib
-https://jqueryjs.googlecode.com/svn
-
-
-
-2009-02-05T23:36:34.003472Z
-6175
-remysharp
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-c715fcbe-d12f-0410-84c4-316a508785bb
-
-jquery
-dir
-
-docs
-dir
-
-jqueryapi
-dir
-
-air
-dir
-
