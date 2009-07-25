@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Database
+END
+Query.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Database/Query.js
+END
+ErrorHandler.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Database/ErrorHandler.js
+END
+CreateDB.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Database/CreateDB.js
+END
+ConnectToFile.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Database/ConnectToFile.js
+END
+SaveOrCreateOption.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Database/SaveOrCreateOption.js
+END
+SetupFirstRun.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Database/SetupFirstRun.js
+END

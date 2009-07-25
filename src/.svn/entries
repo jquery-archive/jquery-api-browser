@@ -1,0 +1,58 @@
+8
+
+dir
+6496
+https://jqueryjs.googlecode.com/svn/trunk/tools/jquery-api-browser/src
+https://jqueryjs.googlecode.com/svn
+
+
+
+2009-01-17T17:51:24.078978Z
+6118
+remysharp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c715fcbe-d12f-0410-84c4-316a508785bb
+
+Update
+dir
+
+Database
+dir
+
+Menu
+dir
+
+System
+dir
+
+jQueryAPI.js
+file
+
+
+
+
+2009-01-20T22:47:05.000000Z
+b4a7691a9f4efd576248e9b71247d9eb
+2009-01-17T17:51:24.078978Z
+6118
+remysharp
+
+Network
+dir
+
+Chrome
+dir
+

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link rel="stylesheet" media="screen" href="/assets/css/Splash.css" />
+		<title>Splash Screen</title>
+	</head>
+	<body>
+		<div id="splash-outer">
+			<div id="splash-inner">
+				<img width="215" height="53" src="/assets/images/logo_jquery_215x53.gif" alt="jQuery: Write Less, Do More."/>
+				<ul id="loading-message"><li>Loading...</li></ul>
+			</div>
+		</div>
+	</body>
+</html>

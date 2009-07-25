@@ -1,0 +1,52 @@
+8
+
+dir
+6496
+https://jqueryjs.googlecode.com/svn/trunk/tools/jquery-api-browser/src/Update
+https://jqueryjs.googlecode.com/svn
+
+
+
+2009-01-17T17:51:24.078978Z
+6118
+remysharp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c715fcbe-d12f-0410-84c4-316a508785bb
+
+AppVersionCheck.js
+file
+
+
+
+
+2009-01-20T22:47:05.000000Z
+48672c344f72eb1b6fc86dcb1daf0c91
+2009-01-17T17:51:24.078978Z
+6118
+remysharp
+
+InvokeApplicationUpdate.js
+file
+
+
+
+
+2009-01-20T22:47:05.000000Z
+bbf3a046b06de4ed53fbab49d0555338
+2009-01-17T17:51:24.078978Z
+6118
+remysharp
+

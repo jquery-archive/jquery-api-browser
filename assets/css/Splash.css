@@ -1,0 +1,28 @@
+body {
+	color: #fff;
+}
+
+#splash-outer {
+	background: #2A3139 url(/assets/images/bg_home_tile_sml.jpg) repeat-x scroll 0 -40px;
+	width: 295px;
+	height:295px;
+	border: 3px solid #000;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+img {
+  padding: 20px 40px;
+}
+
+ul {
+  position: absolute;
+  top: 150px;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 5px;
+}

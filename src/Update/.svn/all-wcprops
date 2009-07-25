@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Update
+END
+AppVersionCheck.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Update/AppVersionCheck.js
+END
+InvokeApplicationUpdate.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/src/Update/InvokeApplicationUpdate.js
+END

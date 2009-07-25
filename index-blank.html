@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+var wormReady = false;
+function writer(s) {
+    // wormReady prevents inserted content triggering a load event, and hense this writer
+    // function getting called again
+    if (!wormReady) {
+        document.write(s);
+        document.close();
+        wormReady = true;
+    }
+}
+
+childSandboxBridge = {
+    'write' : writer
+};
+
+</script>
+</head>
+<body>
+</body>
+</html>

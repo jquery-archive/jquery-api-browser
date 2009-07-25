@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6175/trunk/tools/jquery-api-browser/lib/jqueryapi
+END
+pretty.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/lib/jqueryapi/pretty.js
+END
+cookie.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/lib/jqueryapi/cookie.js
+END
+api-browser.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6168/trunk/tools/jquery-api-browser/lib/jqueryapi/api-browser.js
+END
+jquery.tojson.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/lib/jqueryapi/jquery.tojson.js
+END
+json2.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6118/trunk/tools/jquery-api-browser/lib/jqueryapi/json2.js
+END
+api-loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6175/trunk/tools/jquery-api-browser/lib/jqueryapi/api-loader.js
+END
+jquery.history.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6168/trunk/tools/jquery-api-browser/lib/jqueryapi/jquery.history.js
+END
