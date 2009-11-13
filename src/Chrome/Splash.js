@@ -28,7 +28,7 @@ jQueryAPI.Chrome.Splash = function(callback) {
             $(document).bind('api-load-complete', function () {
 			    
 			    $.ajax({
-                    url: 'app:/lib/docs/plugins.xml', // generated from jquery source: /tools/wikiapi2xml/createjQueryXMLDocs.py
+                    url: 'app:lib/docs/plugins.xml', // generated from jquery source: /tools/wikiapi2xml/createjQueryXMLDocs.py
                     dataType: 'xml',
                     async : false, // block until complete
                     success: parse // stored in /lib/jqueryapi/api-loader.js
@@ -46,7 +46,7 @@ jQueryAPI.Chrome.Splash = function(callback) {
 			});
 			
 			// read in docs (false == not async and therefore block)
-			loadDocs('app:/lib/docs/api-docs.xml', false); // from api-loader.js and triggers api-load-complete
+			loadDocs('app:lib/docs/api-docs.xml', false); // from api-loader.js and triggers api-load-complete
         }
 		
         function runMain() {
