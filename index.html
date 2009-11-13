@@ -79,14 +79,14 @@ if (!window.runtime) {
         		'name','badge',
         		'allowscriptaccess','all',
         		'pluginspage','http://www.macromedia.com/go/getflashplayer',
-        		'flashvars','appname=Sample%20Application&appurl=http://api.jquery.com/browser/update/jquery-api-browser-2.0.air&airversion=2.0&imageurl=/assets/images/badge.jpg',
+        		'flashvars','appname=Sample%20Application&appurl=update/jquery-api-browser-2.0.air&airversion=2.0&imageurl=assets/images/badge.jpg',
         		'movie','badge' ); //end AC code
 
         } else {  // flash is too old or we can't detect the plugin
         	var alternateContent = '<table id="messageTable"><tr><td>'
         	+ 'This application requires the following be installed:<ol>'
         	+ '<li><a href="http://adobe.com/go/getair/">Adobe&#174; AIR&#8482; Runtime</a></li>'
-        	+ '<li><a href="http://api.jquery.com/browser/update/jquery-api-browser-2.0.air">Sample Application</a></li>'
+        	+ '<li><a href="update/jquery-api-browser-2.0.air">Sample Application</a></li>'
         	+ '</ol>Please click on each link in the order above to complete the installation process.</td></tr></table>';
         	$('#install').html(alternateContent);  // insert non-flash content
         }
@@ -96,7 +96,7 @@ if (!window.runtime) {
             
             <noscript>
                 <p>The API browser requires JavaScript to run, however you can also download the offline AIP browser that runs using AIR:</p>
-                <p>Download and install the <a href="http://api.jquery.com/browser/update/jquery-api-browser-2.0.air">offline API browser</a></p>
+                <p>Download and install the <a href="update/jquery-api-browser-2.0.air">offline API browser</a></p>
             </noscript>
           </div>
       </div>
