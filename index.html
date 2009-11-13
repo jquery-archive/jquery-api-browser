@@ -4,11 +4,11 @@
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <title>jQuery API Browser</title>
-<script type="text/javascript" src="/lib/jquery/jquery-1.3.1.js"></script>
-<script src="/lib/jqueryapi/api-browser.js" type="text/javascript" charset="utf-8"></script>
-<script src="/lib/air/AC_RunActiveContent.js" type="text/javascript" charset="utf-8"></script>
-<link media="screen,print" rel="stylesheet" href="/assets/css/APIBrowser.css" type="text/css" charset="utf-8" />
-<link media="print" rel="stylesheet" href="/assets/css/Print.css" type="text/css" charset="utf-8" />
+<script type="text/javascript" src="lib/jquery/jquery-1.3.1.js"></script>
+<script src="lib/jqueryapi/api-browser.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/air/AC_RunActiveContent.js" type="text/javascript" charset="utf-8"></script>
+<link media="screen,print" rel="stylesheet" href="assets/css/APIBrowser.css" type="text/css" charset="utf-8" />
+<link media="print" rel="stylesheet" href="assets/css/Print.css" type="text/css" charset="utf-8" />
 </head>
 <body id="page">
     <!-- <noscript>
@@ -16,7 +16,7 @@
     <div style="display: none;">
     </noscript> -->
     <div id="header">
-        <img width="215" height="53" alt="jQuery: Write Less, Do More." src="/assets/images/logo_jquery_215x53.gif"/>
+        <img width="215" height="53" alt="jQuery: Write Less, Do More." src="assets/images/logo_jquery_215x53.gif"/>
         <div id="navigation">
             <ul>
                 <li class="first"><a class="selected" href="#api">API</a></li>
@@ -29,7 +29,7 @@
     <div id="body">
       <div id="browser">
           <div class="inner">
-              <p class="loading"><img src="/assets/images/spinner.gif" /> Loading jQuery API database</p>
+              <p class="loading"><img src="assets/images/spinner.gif" /> Loading jQuery API database</p>
           </div>
       </div>
       <div id="detail">
@@ -42,8 +42,8 @@
             
             <p>You can also use categorise your filtering by using:</p>
             <ul>
-                <li><a href="http://api.jquery.com/?added=1.3">added=1.3</a> for all the latest functions</li>
-                <li><a href="http://api.jquery.com/?category=core">category=core</a> for all the methods within on category</li>
+                <li><a href="?added=1.3">added=1.3</a> for all the latest functions</li>
+                <li><a href="?category=core">category=core</a> for all the methods within on category</li>
                 <li>Or just use it to search for method names</li>
             </ul>
 
@@ -79,14 +79,14 @@ if (!window.runtime) {
         		'name','badge',
         		'allowscriptaccess','all',
         		'pluginspage','http://www.macromedia.com/go/getflashplayer',
-        		'flashvars','appname=Sample%20Application&appurl=http://api.jquery.com/update/jquery-api-browser-2.0.air&airversion=2.0&imageurl=/assets/images/badge.jpg',
+        		'flashvars','appname=Sample%20Application&appurl=http://api.jquery.com/browser/update/jquery-api-browser-2.0.air&airversion=2.0&imageurl=/assets/images/badge.jpg',
         		'movie','badge' ); //end AC code
 
         } else {  // flash is too old or we can't detect the plugin
         	var alternateContent = '<table id="messageTable"><tr><td>'
         	+ 'This application requires the following be installed:<ol>'
         	+ '<li><a href="http://adobe.com/go/getair/">Adobe&#174; AIR&#8482; Runtime</a></li>'
-        	+ '<li><a href="http://api.jquery.com/update/jquery-api-browser-2.0.air">Sample Application</a></li>'
+        	+ '<li><a href="http://api.jquery.com/browser/update/jquery-api-browser-2.0.air">Sample Application</a></li>'
         	+ '</ol>Please click on each link in the order above to complete the installation process.</td></tr></table>';
         	$('#install').html(alternateContent);  // insert non-flash content
         }
@@ -96,7 +96,7 @@ if (!window.runtime) {
             
             <noscript>
                 <p>The API browser requires JavaScript to run, however you can also download the offline AIP browser that runs using AIR:</p>
-                <p>Download and install the <a href="http://api.jquery.com/update/jquery-api-browser-2.0.air">offline API browser</a></p>
+                <p>Download and install the <a href="http://api.jquery.com/browser/update/jquery-api-browser-2.0.air">offline API browser</a></p>
             </noscript>
           </div>
       </div>
@@ -105,11 +105,11 @@ if (!window.runtime) {
     <!-- <noscript>
     </div>
     </noscript> -->
-<script src="/lib/jqueryapi/api-loader.js" type="text/javascript" charset="utf-8"></script>
-<script src="/lib/jqueryapi/pretty.js" type="text/javascript" charset="utf-8"></script>
-<script src="/lib/jqueryapi/cookie.js" type="text/javascript" charset="utf-8"></script>
-<script src="/lib/jqueryapi/jquery.tojson.js" type="text/javascript" charset="utf-8"></script>
-<script src="/lib/jqueryapi/jquery.history.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/jqueryapi/api-loader.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/jqueryapi/pretty.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/jqueryapi/cookie.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/jqueryapi/jquery.tojson.js" type="text/javascript" charset="utf-8"></script>
+<script src="lib/jqueryapi/jquery.history.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" charset="utf-8">
     // fixes Safari restoring the scroll position *after* load
     setTimeout(function () {
